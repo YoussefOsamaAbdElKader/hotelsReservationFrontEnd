@@ -1,0 +1,456 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* Section Header Hotel page */
+
+#header-hotel-page{
+    background-color: #332F3D;
+    height: fit-content;
+    padding: 5rem 0rem 5rem 0rem;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: inherit;
+    display: flex;
+}
+#left-div-header i{
+    color: white;
+    font-size: 1.6rem;
+}
+#left-div-header{
+    width: 20%;
+    align-self: center;
+}
+#center-div-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+}
+#center-div-header span i{
+    vertical-align: bottom;
+    color: white;
+    font-size: 2rem;
+    font-family: Satisfy;
+    text-align: center;
+}
+#nav-menu-hotel-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#nav-menu-hotel-page{
+    list-style-type: none!important;
+}
+.nav-link{
+    font-family: Roboto;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color: #BEA123;
+}
+#right-div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    align-self: center;
+
+}
+#right-div-header a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+#right-div-header a:hover{
+    color:#BEA123;
+}
+
+
+/* Banner Section Hotel Page */
+
+#section1-hotel-page{
+    background-image: url(../img/Hotel/hotel1/hotel1.jpg);
+    background-size: cover;
+    background-color:rgba(0, 0, 0, .5);
+    background-blend-mode: darken;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section1-hotel-page h1,h3{
+    text-align: center;
+    color: white;
+}
+#section1-hotel-page h1{
+    font-size: 5.6rem;
+    letter-spacing: .15rem;
+    font-family: Roboto;
+}
+#section1-hotel-page h3{
+    font-size: 3.2rem;
+    letter-spacing: .15rem;
+    font-family: Roboto;
+    padding-bottom: 10rem;
+}
+#section1-hotel-page button{
+    background-color: #BEA123;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .15rem;
+    line-height: 3rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    transition: transform 1s;
+
+}
+#section1-hotel-page button:hover{
+    background-color:#332F3D;
+    color: white;
+    transform: translate(0,0.5rem);
+
+}
+
+/* icons left - text right */
+
+
+/* icons left */
+#section2-hotel-page{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #707070;
+}
+#left-icons-section2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    border-right: 2px solid #707070;
+
+}
+.icons-text-row{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #707070;
+
+}
+.icon-text-unit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+#unit1{
+    background-color: white;   
+    border-right: 2px solid #707070;
+
+}
+#unit1 h3{
+    color: #332F3D;
+    font-size: 3.2rem;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 4.2rem;
+}
+#unit2{
+    background-color: #BEA123;
+}
+#unit2 h3{
+    color: white;
+    font-size: 3.2rem;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 4.2rem;
+}
+#unit3{
+    background-color: #332F3D;
+    border-right: 2px solid #707070;
+
+}
+#unit3 h3{
+    color: white;
+    font-size: 3.2rem;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 4.2rem;
+}
+#unit4{
+    background-color:white;
+}
+#unit4 h3{
+    color: #332F3D;
+    font-size: 3.2rem;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 4.2rem;
+}
+
+/* text right */
+#right-text-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EAE3E3;
+    width: 50%;
+    height: inherit;
+    border: 1px solid #000000;
+    padding:10rem;
+
+}
+#container-section2{
+    display: flex;
+    flex-direction: column;
+}
+#container-section2 h3{
+    font-size: 2.7rem;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: #494D43;
+    text-align: left;
+}
+#container-section2 h1{
+    font-size: 3.5rem;
+    font-family: Roboto;
+    text-shadow: 2px 2px 2px #000000;
+    line-height: 6rem;
+    letter-spacing: .15rem;
+}
+#container-section2 p strong{
+    font-size:1.9rem;
+    line-height: 3.2rem;
+    font-family: Roboto;
+    letter-spacing: .15rem;
+}
+#hotelInformation2{
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: 400;
+    letter-spacing: .15rem;
+    color: #3c3c3c;
+    font-family: Roboto;
+}
+#button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+
+}
+#button-container:nth-child(1){
+    background-color: #BEA123;
+    color: white;
+    font-weight: 400;
+    transition: transform 1s;
+
+}
+
+#button-container:nth-child(2){
+    background-color:transparent;
+    border:2px solid #BEA123;
+    color: #BEA123;
+}
+#unit4 svg{
+    fill: white!important;
+}
+hr{
+        color:#BEA123;
+        height: 3px!important;
+        width: 5rem;
+        margin:0 auto 0 auto;
+        opacity: 1!important;
+}
+#button-contain{
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+#button-contain button:nth-child(1){
+    background-color: #BEA123;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 2.6rem;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    transition: transform 1s;
+
+}
+#button-contain button:nth-child(1):hover{
+    background-color:#332F3D;
+    transform: translate(0,0.5rem);
+
+}
+#button-contain button:nth-child(2){
+    background-color: transparent;
+    color: #BEA123;
+    border: 2px solid #BEA123;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .15rem;
+    border-radius: 2rem;
+    padding: 0.5rem 7rem;
+    text-align: center;
+    transition: transform 1s;
+
+    
+}
+#button-contain button:nth-child(2):hover{
+    background-color: #BEA123;
+    color: white;
+    transform: translate(0,0.5rem);
+
+}
+
+/* Our Rooms Section */
+
+#sectionOurRooms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem;
+}
+#styleHr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#sectionOurRooms h1{
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+    letter-spacing: .15rem;
+    font-family: Mate SC;
+}
+#headlineParagraph{
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    width: min(60%);
+    
+}
+#gridRooms{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+    width: min(75%);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding-bottom: 2rem;
+}
+.card:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.card h3{
+    color: #332F3D;
+    font-size: 3.2rem;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 4.2rem;
+    letter-spacing: .15rem;
+    padding-top: 2rem;
+}
+.card p strong{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    font-family: Roboto;
+    width: min(50%);
+}
+.RoomImage img{
+    width: 100%;
+    height: 300px;
+}
+.bookRoom{
+    background-color: #BEA123;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .15rem;
+    line-height: 2.6rem;
+    border-radius: 1rem;
+    padding: 0.5rem 4rem;
+    text-align: center;
+    transition: transform 1s;
+
+}
+.bookRoom:hover{
+    background-color: #332F3D;
+    transform: translate(0px,.5rem);
+
+}
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
